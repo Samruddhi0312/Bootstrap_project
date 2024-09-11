@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+ 
+
+    <style>
+        #foodimge {
+            animation: up-down 2s infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes up-down {
+            from {
+                transform: translateY(20px);
+
+            }
+
+        }
+
+        .heading,
+        #heading2,
+        #heading3 {
+            font-weight: normal;
+            font-family: "Caveat" , cursive;
+        }
+
+       
+    </style>
+
+</head>
+
+<body>
+    <!-- *********** navbr start ************* -->
+
+    <div id="nav-container" class="container-fluid position-fixed bg-light " style="z-index: 999; ">
+        <div class="row " id="nav-bar">
+            <div class="col-md-2 pt-4 text-center ">
+                <h2>Yummy<sub class="text-danger">.</sub></h2>
+            </div>
+
+            <div class="col-md-8 ">
+                <nav class="navbar navbar-expand-lg  m-2 ">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse  text-center m-2 " id="navbarScroll">
+                            <ul id="navbar" class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll  m-5  "
+                                style="--bs-scroll-height: 100px;">
+                                <li class="nav-item  px-2" >
+                                    <a class="nav-link" href="#main-content">Home</a>
+                                </li>
+                                <li class="nav-item  px-2">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item  px-2">
+                                    <a class="nav-link" href="#menu">Menu</a>
+                                </li>
+                                <li class="nav-item  px-2">
+                                    <a class="nav-link" href="#events">Events</a>
+                                </li>
+                                <li class="nav-item  px-2">
+                                    <a class="nav-link" href="#chefs">Chefs</a>
+                                </li>
+                                <li class="nav-item  px-2">
+                                    <a class="nav-link" href="#gallery">Gallery</a>
+                                </li>
+                                <li class="nav-item  px-2">
+                                    <a class="nav-link" href="#Contact">Contact</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown">Dropdown </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Dropdown1</a></li>
+                                        <li><a class="dropdown-item" href="#">Dropdown2</a></li>
+                                        <li><a class="dropdown-item" href="#">Dropdown3</a></li>
+                                        <li><a class="dropdown-item" href="#">Dropdown4</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                                href="#">Deep Dropdown</a>
+                                            
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-md-2  text-center">
+
+                <button id="button-book" class="btn my-4 text-center px-4"
+                    style="background-color: #cf1313; border-radius: 150px; color: white; ">Book a Table</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- *********** navbr end ************* -->
+
+
+    <!-- main containt -->
+
+    <div   class="container-fluid w-100 " id="main-content" style="background-color: #f2f2f2;">
+        <div class="row ">
+            <div id="first-content" class="col-md-6 " style="margin-left: 100px; margin-top: 150px; width: 500px; font-size: 20px;">
+                <h1 style="font-size: 50px;" class="heading">Enjoy Your Healthy Delicious Food</h1>
+                <p class="text-secondary">We are team of talented designers making websites with Bootstrap</p>
+                <button class="btn my-4 text-center px-4"
+                    style="background-color: #cf1313; border-radius: 150px; color: white; ">Book a Table</button>
+                <span> <i class="bi bi-play-circle text-danger"
+                    style="font-size: 30px; margin-left: 10px;"></i><button id="watch-video"  class=" btn  my-4 text-center bg-transperant text-dark fw-bold"
+                        style=" border-radius: 150px; color: white;  ">Watch Video</button></span>
+            </div>
+            <div data-aos="zoom-in" class="col-md-6 " id="main-image">
+                <img id="foodimge" src="./assects/images/img1.png" class="img-fluid "
+                    style=" width: 450px; margin-left: 170px; margin-top: 90px; margin-bottom: 10px;">
+
+            </div>
+        </div>
+    </div>
+    <!-- about us -->
+    <div class="container-fluid" id="about">
+        <div data-aos="fade-up" class="row">
+            <div data-aos="fade-up" class="col-md-12  text-center p-3 mt-4">
+                <p>ABOUT US</p>
+            </div>
+            <div data-aos="fade-up" class="col-md-12 text-center " id="heading2">
+                <h2>LEARN MORE <span class="text-danger">ABOUT US</span></h2>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div data-aos="fade-up" class="col-md-7 " id="aboutus">
+                <img src="./assects/images/img2.jpg" class=" image-fluid"
+                    style="width: 80%; margin-left: 100px; margin-top: 50px;" alt="image">
+                <div data-aos="fade-up" id="book-box" class=" text-center p-2"
+                    style=" width: 80%; border: 4px solid #626569; margin-left: 100px; margin-top: 20px;">
+                    <h4 class="fw-bold" id="book-box">Book a Table</h4>
+                    <h4 class="text-danger">+1 5589 55488 55</h4>
+                </div>
+
+            </div>
+
+            <div class="col-lg-5">
+                <div data-aos="fade-up" class="" style="margin-top: 50px; margin-right: 50px; text-align: justify;">
+                    <p style="font-style: italic; color: gray; font-size: large; ">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <ul style="list-style: none; text-align:start;">
+                        <li class="mt-4"><i class="bi bi-check bg-danger text-light" style="border-radius: 50%; "></i>
+                            <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
+                        </li>
+                        <li class="mt-4"> <i class="bi bi-check bg-danger text-light" style="border-radius: 50%;"></i>
+                            <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+                        </li>
+                        <li class="mt-4"><i class="bi bi-check bg-danger text-light" style="border-radius: 50%;"></i>
+                            <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                                pariatur.</span>
+                        </li>
+                    </ul>
+                    <p style="text-align: justify;">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident</p>
+                    <img src="./assects/images/img3.jpg" alt="" class="img-fluid "><i id="play-button" class="bi bi-play-circle-fill "
+                        style=" color: #cf1313; position: absolute; right: 250px; top: 210%; font-size: 70px;"></i>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="small-card" class="container-fluid " style="margin-top: 50px; background-color: #f2f2f2; padding: 30px;">
+        <div  class="row">
+            <div class="col-md-4">
+                <div data-aos="fade-up" id="red-card" class=" p-3" style="width: 90%; margin-left: 80px; background-color: #cf1313;">
+                    <h1 class="text-light m-3">Why Choose Yummy</h1>
+                    <p class="text-light m-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                        Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad
+                        corporis.</p>
+                    <button id="learn-more" class="btn text-light m-3 bg-danger px-5 " style="border-radius: 20px;">Learn More <i
+                            class="bi bi-chevron-right"></i></button>
+
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div id="about-card"   class="row ">
+                    <div  class="col-md-2 "
+                        style="margin-left: 50px; text-align: center; width: 250px; background-color: white; ">
+                        <div  data-aos="fade-up" style="padding-top: 80px;">
+                            <i   class="bi bi-clipboard-data  "
+                                style="align-items: center !important;  color: #cf1313; font-size: 30px;  border-radius: 50%; padding: 20px; background-color: #fcf2f2;"></i>
+                            <h4 style="padding:50px 10px;">Corporis voluptates officia eiusmod</h4>
+                            <p style="padding-left:10px; padding-right: 20px;">Consequuntur sunt aut quasi enim aliquam
+                                quae harum pariatur laboris nisi ut aliquip</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 "
+                        style="margin-left: 20px; text-align: center; width: 250px; background-color: white; ">
+                        <div data-aos="fade-up" style="padding-top: 80px;">
+                            <i class="bi bi-gem  "
+                                style="align-items: center !important;  color: #cf1313; font-size: 30px;  border-radius: 50%; padding: 20px; background-color: #fcf2f2;"></i>
+                            <h4 style="padding:50px 10px;">Ullamco laboris ladore lore pan</h4>
+                            <p style="padding-left:10px; padding-right: 20px;">Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-2"
+                        style="margin-left: 20px; text-align: center; width: 250px; background-color: white; ">
+                        <div data-aos="fade-up" style="padding-top: 80px;">
+                            <i class="bi bi-inboxes "
+                                style="align-items: center !important;  color: #cf1313; font-size: 30px;  border-radius: 50%; padding: 20px; background-color: #fcf2f2;"></i>
+                            <h4 style="padding:50px 10px;">Labore consequatur incidid dolore</h4>
+                            <p style="padding-left:10px; padding-right: 20px;">Aut suscipit aut cum nemo deleniti aut
+                                omnis. Doloribus ut maiores omnis facere</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid my-5">
+        <div class="carousel slide">
+            <div class="carousel-inner">
+                <div data-aos="fade-up" class="carousel-item active ">
+                    <img src="./assects/images/img4.jpg" alt="image" class="img-fluid w-100"
+                        style="height: 400px; opacity:0.9; filter:brightness(50%);">
+                    <div   id="caption-number"  class="carousel-caption  " style="color:white; padding: 100px;  margin: 50px; ">
+                        <div class="row" >
+                            <div data-aos="fade-up" class="col-md-3 ">
+                                <h1>232</h1>
+                                <h6>Clients</h6>
+                            </div>
+                            <div data-aos="fade-up" class="col-md-3  ">
+                                <h1>521</h1>
+                                <h6>Projects</h6>
+                            </div>
+                            <div data-aos="fade-up" class="col-md-3 ">
+                                <h1>1453</h1>
+                                <h6>Hours Of Support</h6>
+                            </div>
+                            <div data-aos="fade-up" class="col-md-3 ">
+                                <h1>32</h1>
+                                <h6>Workers</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" id="menu">
+        <div class="row">
+            <div data-aos="fade-up" class=" col-md-12  text-center py-3 text-secondary">
+                <p>OUR MENU</p>
+                <h2 id="heading3">CHECK OUR <span class="text-danger">YUMMY MENU</span></h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div data-aos="fade-up" data-aos="fade-up" class="row">
+            <ul class="nav justify-content-center " style="font-size: 20px;">
+                <li class="nav-item">
+                    <a class="nav-link text-dark p-2" style=" margin: 10px;"
+                        href="#">Starters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark  p-2"
+                        style=" margin: 10px;" href="#">Breakfast</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark  p-2"
+                        style=" margin: 10px;" href="#">Lunch</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark  p-2"
+                        style=" margin: 10px;" href="#">Dinner</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div data-aos="fade-up" class=" col-md-12  text-center py-3 ">
+                    <p class="text-secondary">MENU</p>
+                    <h2 id="heading3" class="text-danger">STARTERS</h2>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid " style="padding: 10px;">
+            <div class="row">
+                <div class="col-md-4 p-5">
+                    <div data-aos="fade-up" class="card" style="border: none;">
+                        <img src="./assects/images/img1.png" class="card-img-top" alt="image" style="padding: 30px;">
+                        <div data-aos="fade-up" class="card-body text-center">
+                            <h5 class="card-title">Magnam Tiste </h5>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                            <h5 class="text-danger">$5.95</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4  p-5 ">
+                    <div data-aos="fade-up" class="card" style="border: none;">
+                        <img src="./assects/images/card-img-2.png" class="card-img-top" alt="image"
+                            style="padding: 30px;">
+                        <div data-aos="fade-up" class="card-body text-center">
+                            <h5 class="card-title">Aut Luia </h5>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                            <h5 class="text-danger">$5.95</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4  p-5 ">
+                    <div data-aos="fade-up" class="card" style="border: none;">
+                        <img src="./assects/images/card-img-3.png" class="card-img-top" alt="image"
+                            style="padding: 30px;">
+                        <div data-aos="fade-up" class="card-body text-center">
+                            <h5 class="card-title">Est Eligendi </h5>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                            <h5 class="text-danger">$5.95</h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 p-5">
+                    <div data-aos="fade-up" class="card" style="border: none;">
+                        <img src="./assects/images/card-img-4.png" class="card-img-top" alt="image"
+                            style="padding: 30px;">
+                        <div data-aos="fade-up" class="card-body text-center">
+                            <h5 class="card-title">Eos Luibusdam</h5>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                            <h5 class="text-danger">$5.95</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4  p-5 ">
+                    <div data-aos="fade-up" class="card" style="border: none;">
+                        <img src="./assects/images/card-img-5.png" class="card-img-top" alt="image"
+                            style="padding: 30px;">
+                        <div data-aos="fade-up" class="card-body text-center">
+                            <h5 class="card-title">Eos Luibusdam</h5>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                            <h5 class="text-danger">$5.95</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4  p-5 ">
+                    <div data-aos="fade-up" class="card" style="border: none;">
+                        <img src="./assects/images/card-img-6.png" class="card-img-top" alt="image"
+                            style="padding: 30px;">
+                        <div data-aos="fade-up" class="card-body text-center">
+                            <h5 class="card-title">Laboriosam Direva</h5>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                            <h5 class="text-danger">$5.95</h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div style="background-color: #f2f2f2;">
+
+        <div class="container-fluid" id="">
+            <div class="row" style="margin-top: 80px;">
+                <div data-aos="fade-up" class=" col-md-12  text-center py-3 text-secondary">
+                    <p>TESTIMONIALS</p>
+                    <h2 id="heading3">WHAT ARE THEY<span class="text-danger">SAYING ABOUT US</span></h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="carouselExample" class="carousel carousel-dark slide " data-bs-ride="carousel"
+            style="margin-top: 50px;">
+
+            <div data-aos="fade-up"  class="carousel-inner">
+                <div class="carousel-indicators ">
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"
+                        style="width: 15px; height: 15px; border-radius: 50%;"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"
+                        style="width: 15px; height: 15px; border-radius: 50%;"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"
+                        style="width: 15px; height: 15px; border-radius: 50%;"></button>
+                </div>
+                <div data-aos="fade-up" id="carousel-main" class="carousel-item active" style=" position: relative; left: 300px;">
+
+                    <div id="carousel-first" class="row">
+
+                        <div class="col-md-6" style="display: flex;">
+                            <div class="carousel-caption text-dark" style="width: 500px;">
+                                <p class="car-cap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, atque. Lorem
+                                    ipsum
+                                    dolor sit amet consectetur adipisicing elit. Tempora, molestias! Dolorem nulla
+                                    ducimus
+                                    quibusdam vel delectus incidunt voluptatem sequi quas.</p>
+                                <h6>sara wilson</h6>
+                            </div>
+                            <div class="col-md-6 ">
+                                <img src="./assects/images/user-1.jpg" alt="..."
+                                    style="padding-left: 10px; height: 150px; width:150px; border-radius: 50%;margin: auto;">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item " style=" position: relative; left: 300px;">
+
+                    <div class="row">
+
+                        <div class="col-md-6" style="display: flex;">
+                            <div class="carousel-caption text-dark" style="width: 500px;">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quisquam. Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ipsa.</p>
+                                <h6>Gena Karlic</h6>
+                            </div>
+                            <div class="col-md-6 ">
+                                <img src="./assects/images/user-2.jpg" alt="..."
+                                    style="padding-left: 10px; height: 150px; width:150px; border-radius: 50%;margin: auto;">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item " style=" position: relative; left: 300px;">
+
+                    <div class="row">
+
+                        <div class="col-md-6" style="display: flex;">
+                            <div class="carousel-caption text-dark" style="width: 500px;">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, officia. Lorem ipsum
+                                    dolor sit, amet consectetur adipisicing elit. Expedita, nesciunt.</p>
+                                <h6>john larson</h6>
+                            </div>
+                            <div class="col-md-6 ">
+                                <img src="./assects/images/user-3.jpg" alt="..."
+                                    style="padding-left: 10px; height: 150px; width:150px; border-radius: 50%;margin: auto;">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev text-dark" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 100px;" id="events">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div data-aos="fade-up" class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <img  src="./assects/images/card2-1.jpg" alt="" class="img-fluid">
+
+                            </div>
+                            <div class="col-md-4 ">
+                                <img src="./assects/images/card2-2.jpg" alt="" class="img-fluid">
+
+                            </div>
+                            <div class="col-md-4 ">
+                                <img src="./assects/images/card2-3.jpg" alt="" class="img-fluid">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./assects/images/card2-2.jpg" alt="" class="img-fluid">
+
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assects/images/card2-3.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assects/images/card2-4.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./assects/images/card2-1.jpg" alt="" class="img-fluid">
+
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assects/images/card2-2.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assects/images/card2-3.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container-fluid" id="chefs">
+        <div class="row" style="margin-top: 80px;">
+            <div data-aos="fade-up" class=" col-md-12  text-center py-3 text-secondary">
+                <p>CHEFS</p>
+                <h2 id="heading3">OUR <span class="text-danger">PROFFESIONAL CHEFS</span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding: 100px;">
+        <div id="chefs-card" class="row">
+            <div class="col-md-4">
+                <div data-aos="fade-up" class="card" style="border: none !important;  box-shadow: 3px 3px 20px gray;">
+                    <div data-aos="fade-up" class="card-header">
+                        <img src="./assects/images/chefs-1.jpg" alt="" class="img-fluid w-100">
+                    </div>
+                    <div data-aos="fade-up" class="card-body text-center">
+                        <h5>Walter White</h5>
+                        <p>Master Chef</p>
+                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
+                            exercitationem iure minima enim corporis et voluptate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div data-aos="fade-up" class="card" style="border: none !important; box-shadow: 3px 3px 20px gray;">
+                    <div data-aos="fade-up" class="card-header">
+                        <img src="./assects/images/chefs-2.jpg" alt="" class="img-fluid w-100">
+                    </div>
+                    <div data-aos="fade-up" class="card-body text-center">
+                        <h5>Sarah Jhonson</h5>
+                        <p>Patissier</p>
+                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
+                            exercitationem iure minima enim corporis et voluptate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div data-aos="fade-up" class="card" style="border: none !important;  box-shadow: 3px 3px 20px gray;">
+                    <div data-aos="fade-up" class="card-header">
+                        <img src="./assects/images/chefs-3.jpg" alt="" class="img-fluid w-100">
+                    </div>
+                    <div data-aos="fade-up" class="card-body text-center">
+                        <h5>William Anderson</h5>
+                        <p>Cook</p>
+                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
+                            exercitationem iure minima enim corporis et voluptate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="">
+        <div class="row" style="margin-top: 80px;">
+            <div data-aos="fade-up" class=" col-md-12  text-center py-3 text-secondary">
+                <p>BOOK A TABLE</p>
+                <h2 id="heading3">BOOK YOUR <span class="text-danger">STAY WITH US </span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color:#f2f2f2 ;">
+        <div  class="row">
+            <div data-aos="fade-up" class="col-md-4 ">
+                <img src="./assects/images/reservation.jpg" alt="" class="img-fluid"
+                    style="width: 80%; height: 500px; margin-left:100px;">
+            </div>
+            <div data-aos="fade-up" class="col-md-8  p-5">
+                <form action="" style="margin-top: 50px; margin-left: 20px;">
+                    <div data-aos="fade-up" class="row">
+                        <div class="col-md-4 my-3">
+                            <input type="text" placeholder="Your Name" class="form-control">
+                        </div>
+                        <div class="col-md-4 my-3">
+                            <input type="text" placeholder="Your Email" class="form-control">
+                        </div>
+                        <div class="col-md-4 my-3">
+                            <input type="number" placeholder="Your Phone" class="form-control">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" class="row">
+                        <div class="col-md-4 my-3">
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="col-md-4 my-3">
+                            <input type="time" class="form-control">
+                        </div>
+                        <div class="col-md-4 my-3">
+                            <input type="number" placeholder="#of people" class="form-control">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" class="row">
+                        <div class="col-md-12 my-3">
+                            <textarea name="" id="" placeholder="Message" class="form-control "
+                                style="height: 100px;"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <button class="btn btn-danger px-4" style="width: 150px;">Book A Table</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid " style="background-color: #f2f2f2;" id="gallery">
+        <div class="row" style="margin-top: 80px;">
+            <div data-aos="fade-up" class=" col-md-12  text-center py-3 text-secondary">
+                <p>Gallery</p>
+                <h2 id="heading3">CHECK <span class="text-danger">OUR GALLERY</span></h2>
+            </div>
+        </div>
+
+        <div data-aos="fade-up" class="container-fluid " style="padding-left: 100px; padding-right: 100px; padding-bottom: 100px;">
+            <div class="row">
+                <div class="container-fluid" style="margin-top: 100px;">
+                    <div class="row">
+                        <div id="carouselExampleIndicators1" class="carousel slide " data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-1.jpg" alt="" class="img-fluid">
+
+                                        </div>
+                                        <div class="col-md-3 ">
+                                            <img src="./assects/images/gallery-2.jpg" alt="" class="img-fluid">
+
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-3.jpg" alt="" class="img-fluid">
+
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-4.jpg" alt="" class="img-fluid">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-2.jpg" alt="" class="img-fluid">
+
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-3.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-4.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-5.jpg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-3.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-4.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-5.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-6.jpg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-4.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-5.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-6.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-7.jpg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-5.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-6.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-7.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./assects/images/gallery-8.jpg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="Contact">
+        <div class="row" style="margin-top: 80px;">
+            <div data-aos="fade-up" class=" col-md-12  text-center py-3 text-secondary">
+                <p>CONTACT</p>
+                <h2 id="heading3">NEED HELP? <span class="text-danger">CONTACT US</span></h2>
+            </div>
+        </div>
+        <div data-aos="fade-up" class="row px-5" style="width: 90%; margin: auto;">
+            <div class="col-md-12">
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d24194.891715929247!2d-74.0061377!3d40.7100586!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1725611016497!5m2!1sen!2sin"
+                        width="100%" height="400" style="border:0; margin-top: 50px;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-up" class="row " style="width: 80%; margin: auto;">
+            <div class="col-md-6 ">
+                <div class="bg-light">
+                    <div class="my-5 px-5" style="display: flex;  height: 100px; box-shadow: 2px 2px 7px gray;">
+                        <div class="py-2 my-3"
+                            style="width: 50px; height: 50px;  background-color: #cf1313;  border-radius: 100%; text-align: center;">
+                            <i class="bi bi-geo-alt" style="font-size: 20px; color: white;  "></i>
+                        </div>
+                        <div class="p-3">
+                            <h3>Address</h3>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div data-aos="fade-up" class="bg-light">
+                    <div class="my-5 px-5" style="display: flex;  height: 100px; box-shadow: 2px 2px 7px gray;">
+                        <div class="py-2 my-3"
+                            style="width: 50px; height: 50px;  background-color: #cf1313;  border-radius: 100%; text-align: center;">
+                            <i class="bi bi-telephone" style="font-size: 20px; color: white;  "></i>
+                        </div>
+                        <div data-aos="fade-up" class="p-3">
+                            <h3>Call Us</h3>
+                            <p>+1 5589 55488 55</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div data-aos="fade-up" class="container-fluid ">
+            <div class="row " style="width: 80%; margin: auto;">
+                <div class="col-md-6">
+                    <div class="bg-light">
+                        <div class=" px-5" style="display: flex;  height: 100px; box-shadow: 2px 2px 7px gray;">
+                            <div class="py-2 my-3"
+                                style="width: 50px; height: 50px;  background-color: #cf1313;  border-radius: 100%; text-align: center;">
+                                <i class="bi bi-envelope" style="font-size: 20px; color: white;  "></i>
+                            </div>
+                            <div data-aos="fade-up" class="p-3">
+                                <h3>Email</h3>
+                                <p>info@example.com</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="bg-light">
+                        <div class=" px-5" style="display: flex;  height: 100px; box-shadow: 2px 2px 7px gray;">
+                            <div class="py-2 my-3"
+                                style="width: 50px; height: 50px;  background-color: #cf1313;  border-radius: 100%; text-align: center;">
+                                <i class="bi bi-clock" style="font-size: 20px; color: white;  "></i>
+                            </div>
+                            <div data-aos="fade-up" class="p-3">
+                                <h3>Opening Hours</h3>
+                                <p>Mon-Sat: 11AM - 23PM; Sunday: Closed</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div data-aos="fade-up" class="row " style="width: 80%; margin: auto;">
+                <div class="col-md-12">
+                    <div class="form p-5 bg-light my-5">
+                        <div class="row">
+                            <div class="col-md-6 p-2"> <input class="form-control" type="text" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6 p-2"> <input class="form-control" type="text"
+                                    placeholder="Your Email "> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 p-2">
+                                <input type="text" placeholder="subject" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 p-2">
+                                <textarea name="" id="" placeholder="Message" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 p-2" style="text-align: center;">
+                                <button class="btn  px-4"
+                                    style="background-color: #cf1313; color: white; border-radius: 110px;">Send
+                                    Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <div  class="container-fluid"></div>
+        <div class="row">
+            <div id="watsapp-icon"  class="col-md-12" >
+              <a href="https://wa.link/552k8r" target="_blank" style="color: white;"> <i class="bi bi-whatsapp"></i> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fliud  bg-dark footer" style="padding: 100px;">
+        <div data-aos="fade-up" class="row">
+            <div data-aos="fade-up" class="col-md-3" style="display: flex;">
+                <div class=" my-3">
+                    <i class="bi bi-geo-alt" style="font-size: 20px; color: red;  "></i>
+                </div>
+                <div class="p-3 text-light">
+                    <h6>Address</h6>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="col-md-3" style="display: flex;">
+                <div class=" my-3">
+                    <i class="bi bi-envelope" style="font-size: 20px; color: red;  "></i>
+                </div>
+                <div class="p-3 text-light">
+                    <h6>Email</h6>
+                    <p>info@example.com</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="col-md-3" style="display: flex;">
+                <div class="my-3">
+                    <i class="bi bi-clock" style="font-size: 20px; color: red;  "></i>
+                </div>
+                <div class="p-3 text-light">
+                    <h6>Opening Hours</h6>
+                    <p>Mon-Sat: 11AM - 23PM; Sunday: Closed</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="col-md-3">
+                <div>
+                    <h3 class="text-light">Follow Us</h3>
+                    <div style="display: flex; padding: 10px;">
+
+                        <div data-aos="fade-up"
+                            style="margin: 5px; width: 40px; height: 40px; align-content: center; border-radius: 100%; border: 1px solid gray;">
+                            <i class="bi bi-twitter-x text-secondary m-2"></i>
+                        </div>
+                        <div data-aos="fade-up"
+                            style="margin: 5px; width: 40px; height: 40px; align-content: center; border-radius: 100%; border: 1px solid gray;">
+                            <i class="bi bi-facebook text-secondary m-2"></i>
+                        </div>
+                        <div data-aos="fade-up"
+                            style="margin: 5px; width: 40px; height: 40px; align-content: center; border-radius: 100%; border: 1px solid gray;">
+                            <i class="bi bi-instagram text-secondary m-2"></i>
+                        </div>
+                        <div data-aos="fade-up"
+                            style="margin: 5px; width: 40px; height: 40px; align-content: center; border-radius: 100%; border: 1px solid gray;">
+                            <i class="bi bi-linkedin text-secondary m-2"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr style="color: #626569;">
+        <div data-aos="fade-up">
+            <p class="text-light" style="text-align: center; font-weight: normal; padding: 10px;">© Copyright
+                Yummy All Rights Reserved</p>
+        </div>
+
+    </div>
+    
+
+</body>
+<script>
+    AOS.init();
+  </script>
+
+</html>

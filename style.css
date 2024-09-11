@@ -1,0 +1,125 @@
+.nav-item:hover{
+    border-bottom: 2px solid rgb(189, 53, 53); 
+}
+
+@media screen and (max-width: 600px){
+    #main-image >img{
+        height: 300px;
+        padding: 20px;
+        margin-left: 10px;
+        align-content: center;
+    }
+    #aboutus >img{
+        margin-left: 0px;
+        width: 20%;
+    }
+    #red-card{
+       
+        width: 100%;
+        margin: 15px !important;
+        
+    }
+    #about-card{
+        margin-bottom: 20px;
+    }
+    #about-card >div{
+        margin: 20px;
+        margin-left: 10px; 
+       
+    
+    }
+    #caption-number{
+      
+        color:white;
+         padding: 10px !important;
+        margin: 10px !important;
+    }
+
+    #caption-number >div >div{
+     
+        padding-bottom: 10px;
+        
+    }
+    #caption-number >div >div >h1{
+        font-weight: normal;
+        font-size: 30px !important;
+
+
+    }
+    #events{
+        width: 80%;
+        padding: 20px;
+    }
+    #chefs-card >div{
+        margin: 20px !important;
+    }
+    #first-content{
+        margin-left: 10px !important; 
+         margin-top: 250px !important; 
+         width: 50px;
+        font-size: 10px;
+    }
+    #foodimge{
+        margin-left: 0px !important;
+        width: 350px !important;
+        height: 350px !important;
+    }
+    #aboutus >img{
+        width: 350px !important;
+        margin: 10px !important;
+    }
+    #book-box{
+        margin-left: 10px !important;
+    }
+    #small-card{
+        width: 80%;
+    
+    }
+    #main-content{
+    
+        width: 80% !important;
+    }
+   #button-book{
+    position:absolute ;
+    top: 60px;
+    right:20px ;
+   }
+    
+  
+}
+
+#watch-video:hover{
+    color: rgb(196, 8, 8) !important;
+}
+#learn-more:hover{
+    background-color: white !important;
+    color: red !important;
+}
+#about-card >div >div >i:hover{
+    background-color: red !important;
+    color: white !important;
+
+}
+
+#watsapp-icon{
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 50%;
+   text-align: center;
+    position: fixed;
+    bottom: 70%;
+    right: 50px;
+    transition: all 0.3 ease;
+    
+}
+#watsapp-icon>a >i{
+    margin-right: 30%;
+    color: white;
+    font-size: 25px;
+    
+}
+
+#watsapp-icon:hover{
+    transform:scale(1.1);
+}
